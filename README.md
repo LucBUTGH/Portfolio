@@ -40,7 +40,7 @@ Make sure you have Node.js installed on your machine.
 
 5. Open your browser and access the following address:
 
-```http://localhost:<port désigné>```
+```http://localhost:<designated port>```
 
 ## Customization 🎨
 
