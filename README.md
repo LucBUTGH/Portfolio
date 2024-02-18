@@ -1,61 +1,61 @@
-# Portfolio Personnel
+# Personal Portfolio
 
-Ce projet est mon portfolio personnel, développé avec Vue.js et stylisé avec Tailwind CSS.
+This project is my personal portfolio, developed with Vue.js and styled with Tailwind CSS.
 
-## Aperçu
+## Overview
 
-Ce portfolio a été conçu pour présenter mes compétences et mes projets de manière claire et attrayante.
+This portfolio is designed to showcase my skills and projects in a clear and appealing manner.
 
-## Fonctionnalités
+## Features
 
-- **Page d'accueil** : Présentation brève et attrayante de mon profil et de mes compétences.
-- **Portfolio** : Une galerie interactive de mes projets avec des détails sur chaque projet.
-- **Expériences Professionnelles** : Une liste détaillée de mon parcours professionnel.
-- **Contact** : Un formulaire de contact pour me contacter directement.
+- **Home Page**: Brief and attractive presentation of my profile and skills.
+- **Portfolio**: An interactive gallery of my projects with details on each project.
+- **Professional Experience**: A detailed list of my professional background.
+- **Contact**: A contact form to reach me directly.
 
-## Prérequis
+## Prerequisites
 
-Assurez-vous d'avoir Node.js installé sur votre machine.
+Make sure you have Node.js installed on your machine.
 
 ## Installation
 
-1. Clonez ce dépôt sur votre machine locale :
+1. Clone this repository to your local machine:
 
 ```git clone https://github.com/LucBUTGH/portfolio-vuejs.git```
 
 
-2. Accédez au répertoire du projet :
+2. Navigate to the project directory:
 
 ```cd portfolio-vuejs```
 
 
-3. Installez les dépendances :
+3. Install the dependencies:
 
 ```npm install```
 
 
-4. Lancez l'application en mode développement :
+4. Launch the application in development mode:
 
 ```npm run dev```
 
 
-5. Ouvrez votre navigateur et accédez à l'adresse suivante :
+5. Open your browser and access the following address:
 
 ```http://localhost:<port désigné>```
 
-## Personnalisation
+## Customization
 
-Vous pouvez personnaliser ce portfolio en modifiant les fichiers Vue.js et les styles CSS selon vos besoins. Voici quelques points à considérer pour la personnalisation :
+You can customize this portfolio by modifying the Vue.js files and Tailwind CSS styles according to your needs. Here are some points to consider for customization:
 
-- **Données statiques** : Les données des projets sont stockées dans les fichiers `ProjectView.js` dans le dossier `src/views`. Vous pouvez les mettre à jour avec vos propres informations.
-- **Styles** : Tailwind CSS est utilisé pour styliser l'application. Vous pouvez modifier les classes Tailwind directement dans les fichiers Vue.js pour personnaliser l'apparence de votre portfolio.- **Images** : Placez vos propres images dans le dossier `src/assets/` et mettez à jour les références dans les fichiers Vue.js au besoin.
+- **Static Data**: Project data is stored in the ProjectView.js files in the src/views directory. You can update them with your own information.
+- **Styles** : Tailwind CSS est utilisé pour styliser l'application. Vous pouvez modifier les classes Tailwind directement dans les fichiers Vue.js pour personnaliser l'apparence de votre portfolio.
+- **Images** : Placez vos propres images dans le dossier `src/assets/` et mettez à jour les références dans les fichiers Vue.js au besoin.
 
 ## Contribution
 
-Les contributions sont les bienvenues ! Si vous avez des suggestions d'amélioration, des fonctionnalités à ajouter ou des problèmes à signaler, n'hésitez pas à ouvrir une issue ou à proposer une pull request.
+Contributions are welcome! If you have any suggestions for improvement, features to add, or issues to report, feel free to open an issue or submit a pull request.
 
-## Licence
+## License
 
-Ce projet est sous licence MIT. Consultez le fichier `LICENSE` pour plus de détails.
-
+This project is licensed under the Apache-2.0 License. See the LICENSE file for more details.
 
