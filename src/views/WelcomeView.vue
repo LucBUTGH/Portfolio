@@ -62,14 +62,14 @@ export default {
   
         <div class="bg-discord flex flex-col items-center justify-center">
             <div class="border-t-2 border-gray-500 mx-2 w-4/5">
-                <div class="flex flex-col items-center justify-center text-center text-gray-500 my-8">
+                <div class="flex flex-col items-center justify-center text-center text-gray-400 my-8">
                     <h2 class="text-3xl font-bold mb-4">
                         My Skills 
                         <i class="fas fa-code text-xl mb-2"></i>
                     </h2>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-32 mb-12">
-                    <ul class="text-lg text-gray-500">
+                    <ul class="text-lg text-gray-400">
                         <li class="text-2xl underline mb-2">
                             Back-end
                             <i class="fa-solid fa-gears ml-3"></i>
@@ -77,7 +77,7 @@ export default {
                         <li>PHP</li>
                         <li>MySQL</li>
                     </ul>
-                    <ul class="text-lg text-gray-500">
+                    <ul class="text-lg text-gray-400">
                         <li class="text-2xl underline mb-2">
                             Front-end
                             <i class="fa-solid fa-paintbrush ml-3"></i>
@@ -85,7 +85,7 @@ export default {
                         <li>Tailwind CSS</li>
                         <li>JavaScript/Typescript</li>
                     </ul>
-                    <ul class="text-lg text-gray-500">
+                    <ul class="text-lg text-gray-400">
                         <li class="text-2xl underline mb-2">
                             Frameworks
                             <i class="fa-solid fa-desktop ml-3"></i>
@@ -93,7 +93,7 @@ export default {
                         <li>Laravel</li>
                         <li>VueJS</li>
                     </ul>
-                    <ul class="text-lg text-gray-500">
+                    <ul class="text-lg text-gray-400">
                         <li class="text-2xl underline mb-2">
                             Utilities
                             <i class="fa-solid fa-screwdriver-wrench ml-3"></i>
@@ -106,7 +106,7 @@ export default {
   
         <div class="bg-discord flex flex-col items-center justify-center">
             <div class="border-t-2 border-gray-500 mx-2 w-4/5">
-                <div class="flex flex-col items-center text-gray-500 my-8">
+                <div class="flex flex-col items-center text-gray-400 my-8">
                     <h2 class="text-3xl font-bold mb-4">
                         My Projects
                         <i class="fa-solid fa-project-diagram text-xl mb-2"></i>
