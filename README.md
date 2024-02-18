@@ -20,7 +20,7 @@ Make sure you have Node.js installed on your machine.
 
 1. Clone this repository to your local machine:
 
-```git clone https://github.com/LucBUTGH/portfolio-vuejs.git```
+```git clone https://github.com/LucBUTGH/portfolio.git```
 
 
 2. Navigate to the project directory:
@@ -47,8 +47,8 @@ Make sure you have Node.js installed on your machine.
 You can customize this portfolio by modifying the Vue.js files and Tailwind CSS styles according to your needs. Here are some points to consider for customization:
 
 - **Static Data**: Project data is stored in the ProjectView.js files in the src/views directory. You can update them with your own information.
-- **Styles** : Tailwind CSS est utilisé pour styliser l'application. Vous pouvez modifier les classes Tailwind directement dans les fichiers Vue.js pour personnaliser l'apparence de votre portfolio.
-- **Images** : Placez vos propres images dans le dossier `src/assets/` et mettez à jour les références dans les fichiers Vue.js au besoin.
+- **Styles** :  Tailwind CSS is used to style the application. You can modify Tailwind classes directly in Vue.js files to customize the appearance of your portfolio.
+- **Images** : Place your own images in the `public/` folder and update references in Vue.js files as required.
 
 ## Contribution 🤝
 
