@@ -1,35 +1,60 @@
-# char-app
+# Personal Portfolio 🚀
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is my personal portfolio, developed with Vue.js and styled with Tailwind CSS.
 
-## Recommended IDE Setup
+## Overview 📝
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+This portfolio is designed to showcase my skills and projects in a clear and appealing manner.
 
-## Customize configuration
+## Features ✨
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- **Home Page**: Brief and attractive presentation of my profile and skills.
+- **Portfolio**: An interactive gallery of my projects with details on each project.
+- **Contact**: A contact form to reach me directly.
 
-## Project Setup
+## Prerequisites 🛠️
 
-```sh
-npm install
-```
+Make sure you have Node.js installed on your machine.
 
-### Compile and Hot-Reload for Development
+## Installation 💻
 
-```sh
-npm run dev
-```
+1. Clone this repository to your local machine:
 
-### Compile and Minify for Production
+```git clone https://github.com/LucBUTGH/portfolio-vuejs.git```
 
-```sh
-npm run build
-```
 
-### Lint with [ESLint](https://eslint.org/)
+2. Navigate to the project directory:
 
-```sh
-npm run lint
-```
+```cd portfolio-vuejs```
+
+
+3. Install the dependencies:
+
+```npm install```
+
+
+4. Launch the application in development mode:
+
+```npm run dev```
+
+
+5. Open your browser and access the following address:
+
+```http://localhost:<designated port>```
+
+## Customization 🎨
+
+You can customize this portfolio by modifying the Vue.js files and Tailwind CSS styles according to your needs. Here are some points to consider for customization:
+
+- **Static Data**: Project data is stored in the ProjectView.js files in the src/views directory. You can update them with your own information.
+- **Styles** : Tailwind CSS est utilisé pour styliser l'application. Vous pouvez modifier les classes Tailwind directement dans les fichiers Vue.js pour personnaliser l'apparence de votre portfolio.
+- **Images** : Placez vos propres images dans le dossier `src/assets/` et mettez à jour les références dans les fichiers Vue.js au besoin.
+
+## Contribution 🤝
+
+Contributions are welcome! If you have any suggestions for improvement, features to add, or issues to report, feel free to open an issue or submit a pull request.
+
+## License 📜
+
+This project is licensed under the Apache-2.0 License. See the LICENSE file for more details.
+
