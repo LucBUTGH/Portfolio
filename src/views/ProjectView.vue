@@ -122,7 +122,7 @@ export default {
           description: 'This is my portfolio website developed in order to showcase the projects I\'ve been involved in. Thus, I can show my skills to potentially interested targets.',
           techs: ['VueJS', 'Tailwind CSS'],
           link: 'https://lucleveque.fr',
-          linkGH: '',
+          linkGH: 'https://github.com/LucBUTGH/portfolio.git',
           mates: [['Luc Leveque', 'https://github.com/LucBUTGH/']
                 ], 
         },
