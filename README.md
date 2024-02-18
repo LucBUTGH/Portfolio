@@ -10,7 +10,6 @@ This portfolio is designed to showcase my skills and projects in a clear and app
 
 - **Home Page**: Brief and attractive presentation of my profile and skills.
 - **Portfolio**: An interactive gallery of my projects with details on each project.
-- **Professional Experience**: A detailed list of my professional background.
 - **Contact**: A contact form to reach me directly.
 
 ## Prerequisites
