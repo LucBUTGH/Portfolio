@@ -8,7 +8,11 @@ export default {
 <template>
   <header class="bg-discord_dark text-white p-4 px-6">
     <div class="container mx-auto flex justify-between items-center">
-      <img src="/me.jpeg" class="rounded-full w-8 h-8" alt="">
+      <div class="hover: cursor-pointer">
+        <a href="/">
+          <img src="/me.jpeg" class="rounded-full w-8 h-8" alt="">
+        </a>
+      </div>
       <nav>
         <ul class="flex space-x-4">
           <li>
