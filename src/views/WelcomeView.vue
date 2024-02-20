@@ -61,14 +61,14 @@ export default {
         </div>
   
         <div class="bg-discord flex flex-col items-center justify-center">
-            <div class="border-t-2 border-gray-500 mx-2 w-4/5">
-                <div class="flex flex-col items-center justify-center text-center text-gray-400 my-8">
+            <div class="mt-12 border-t-2 border-gray-500 mx-2 w-4/5">
+                <div  class="flex flex-col items-center justify-center text-center text-gray-400 my-8">
                     <h2 class="text-3xl font-bold mb-4">
                         My Skills 
                         <i class="fas fa-code text-xl mb-2"></i>
                     </h2>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-32 mb-12">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-32 mb-12">
                     <ul class="text-lg text-gray-400">
                         <li class="text-2xl underline mb-2">
                             Back-end
@@ -99,6 +99,8 @@ export default {
                             <i class="fa-solid fa-screwdriver-wrench ml-3"></i>
                         </li>
                         <li>Github</li>
+                        <li>Git</li>
+                        <li> API Rest </li>
                     </ul>
                 </div>
             </div>

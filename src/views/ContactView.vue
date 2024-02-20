@@ -1,6 +1,6 @@
 <template>
   <div class="bg-discord min-h-screen items-center justify-center" :class="{ 'flex flex-col': isMobile }">
-    <h1 class="text-4xl text-center text-white font-bold my-5"> Contact me! </h1>
+    <h1 class="text-4xl text-center text-white font-bold mb-5"> Contact me! </h1>
     <form ref="form" @submit.prevent="sendEmail" class="max-w-md mx-auto">
       <div class="mb-4">
         <label for="name" class="mb-2 block text-white">Name :</label>

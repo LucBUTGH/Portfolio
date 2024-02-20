@@ -6,7 +6,7 @@ export default {
 </script>
 
 <template>
-  <header class="bg-discord_dark text-white p-4 px-6">
+  <header class="bg-discord_dark text-white p-4 px-6 mb-10">
     <div class="container mx-auto flex justify-between items-center">
       <div class="hover: cursor-pointer">
         <a href="/">
