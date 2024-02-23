@@ -15,6 +15,7 @@ export default {
       </div>
       <nav>
         <ul class="flex space-x-4">
+
           <li>
             <a href="/" class="font-display max-w-sm text-2xl font-bold leading-tight group transition-all duration-100 ease-in-out">
               <span class="bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all ease-out">
@@ -22,6 +23,7 @@ export default {
               </span>
             </a>
           </li>
+
           <li>
             <a href="/projects" class="font-display max-w-sm text-2xl font-bold leading-tight group transition-all duration-100 ease-in-out">
               <span class="bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all ease-out">
@@ -29,6 +31,7 @@ export default {
               </span>
             </a>
           </li>
+
           <li>
             <a href="/contact" class="font-display max-w-sm text-2xl font-bold leading-tight group transition-all duration-100 ease-in-out">
               <span class="bg-left-bottom bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all ease-out">
@@ -36,6 +39,7 @@ export default {
               </span>
             </a>
           </li>
+          
         </ul>
       </nav>
     </div>

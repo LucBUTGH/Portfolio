@@ -1,9 +1,13 @@
 <script>
 import BorderComp from '@/components/BorderComp.vue';
 import ProjectComp from '@/components/ProjectComp.vue';
+import HeaderComp from '@/components/HeaderComp.vue';
+import FooterComp from '@/components/FooterComp.vue';
 
 export default {
     components: {
+        HeaderComp,
+        FooterComp,
         BorderComp,
         ProjectComp
     },
@@ -19,6 +23,7 @@ export default {
 
 <template>
     <div>
+        <HeaderComp/>
         <div class="bg-discord min-h-screen min-w-screen flex flex-col items-center justify-center">
             <div class="flex flex-col md:flex-row items-center mb-4">
                 <div class="md:mr-12 mb-4 md:mb-0 text-center md:text-left">
@@ -52,11 +57,12 @@ export default {
                         <i class="fa-solid fa-envelope fa-3x" title="Mail"></i>
                     </div>
                 </a>
-                <a href="../src/assets/LucLEVEQUE_CV.pdf" download="LucLEVEQUE_CV.pdf" class="social-link">
+                <a href="/pdf-viewer" target="_blank" class="social-link">
                     <div class="mx-3 md:mx-5">
-                        <img src="/cv.svg" alt="cv" title="Télécharger CV" class="w-12 h-12">
+                        <img src="/cv.svg" alt="cv" title="Ouvrir CV" class="w-12 h-12">
                     </div>
                 </a>
+
             </div>
         </div>
   
@@ -65,14 +71,14 @@ export default {
                 <div  class="flex flex-col items-center justify-center text-center text-gray-400 my-8">
                     <h2 class="text-3xl font-bold mb-4">
                         My Skills 
-                        <i class="fas fa-code text-xl mb-2"></i>
+                        <i class="fas fa-code text-xl mb-3 w-1"></i>
                     </h2>
                 </div>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-32 mb-12">
                     <ul class="text-lg text-gray-400">
                         <li class="text-2xl underline mb-2">
                             Back-end
-                            <i class="fa-solid fa-gears ml-3"></i>
+                            <i class="fa-solid fa-gears ml-3 w-1"></i>
                         </li>
                         <li>PHP</li>
                         <li>MySQL</li>
@@ -80,15 +86,15 @@ export default {
                     <ul class="text-lg text-gray-400">
                         <li class="text-2xl underline mb-2">
                             Front-end
-                            <i class="fa-solid fa-paintbrush ml-3"></i>
+                            <i class="fa-solid fa-paintbrush ml-3 w-1"></i>
                         </li>
                         <li>Tailwind CSS</li>
                         <li>JavaScript/Typescript</li>
                     </ul>
                     <ul class="text-lg text-gray-400">
                         <li class="text-2xl underline mb-2">
-                            Frameworks
-                            <i class="fa-solid fa-desktop ml-3"></i>
+                            Framework
+                            <i class="fa-solid fa-desktop ml-3 w-1"></i>
                         </li>
                         <li>Laravel</li>
                         <li>VueJS</li>
@@ -120,6 +126,7 @@ export default {
             </div>
         </div>
     </div>
+    <FooterComp/>
 </template>
 
   

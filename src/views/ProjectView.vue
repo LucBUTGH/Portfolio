@@ -1,4 +1,5 @@
 <template>
+  <HeaderComp />
   <div class="bg-discord min-h-screen flex flex-col items-center justify-center">
 
     <h1 class="text-5xl font-bold my-4">{{ project.title }}</h1>
@@ -34,7 +35,7 @@
         <p class="font-bold underline text-3xl ml-2">Tools used</p>
       </div>
       <div class="my-5">
-        <span class="bg-discord_very_light rounded-full px-3 py-1 text-white font-semibold text-gray-700 mr-2 mb-2 hover:bg-discord_dark hover:text-white transition duration-300 ease-in-out cursor-pointer" v-for="tech in project.techs" :key="tech">{{ tech }}</span>
+        <span class="bg-discord_very_light rounded-full px-3 py-1 text-white font-semibold mr-2 mb-2 hover:bg-discord_dark hover:text-white transition duration-300 ease-in-out cursor-pointer" v-for="tech in project.techs" :key="tech">{{ tech }}</span>
       </div>
     </div>
 
@@ -44,7 +45,7 @@
         <p class="font-bold underline text-3xl ml-2">Members of the project</p>
       </div>
       <div class="my-5 grid grid-cols-2 gap-1 w-fit">
-        <a :href="mate[1]" target="_blank" :title="mate[0]" class="bg-discord_very_light px-3 py-1 w-fit text-white font-semibold text-gray-700 hover:bg-discord_dark hover:text-white transition duration-300 ease-in-out cursor-pointer" v-for="mate in project.mates" :key="mate[0]">
+        <a :href="mate[1]" target="_blank" :title="mate[0]" class="bg-discord_very_light px-3 py-1 w-fit text-white font-semibold hover:bg-discord_dark hover:text-white transition duration-300 ease-in-out cursor-pointer" v-for="mate in project.mates" :key="mate[0]">
           {{ mate[0] }}
         </a>
       </div>
@@ -52,10 +53,13 @@
     </div>
 
   </div>
-
+<FooterComp />
 </template>
 
 <script>
+import HeaderComp from '@/components/HeaderComp.vue';
+import FooterComp from '@/components/FooterComp.vue';
+
 export default {
   data() {
     return {
@@ -133,6 +137,7 @@ export default {
     project() {
       return this.projects.find(project => project.title === this.$route.params.title);
     }
-  }
+  },
+  components: { HeaderComp, FooterComp}
 };
 </script>

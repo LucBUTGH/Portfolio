@@ -1,4 +1,5 @@
 <template>
+  <HeaderComp />
   <div class="bg-discord min-h-screen items-center justify-center" :class="{ 'flex flex-col': isMobile }">
     <h1 class="text-4xl text-center text-white font-bold mb-5"> Contact me! </h1>
     <form ref="form" @submit.prevent="sendEmail" class="max-w-md mx-auto">
@@ -23,30 +24,34 @@
       </div>
     </form>
   </div>
+  <FooterComp/>
 </template>
 
 <script>
+import HeaderComp from '@/components/HeaderComp.vue';
+import FooterComp from '@/components/FooterComp.vue';
 import emailjs from '@emailjs/browser';
 
 export default {
-  methods: {
-    sendEmail() {
-      emailjs.sendForm('service_5q6nnax', 'template_zdlzzdy', this.$refs.form, 'GVvrvrd7Qx51HKmmB')
-        .then((result) => {
-            console.log('SUCCESS!', result.text);
-            this.$router.push('/contact/confirmation');
-        }, (error) => {
-            console.log('FAILED...', error.text);
-            this.$router.push('/contact/error');
-        });
-    }
-  },
-  computed: {
-    isMobile() {
-      const isMobile = window.matchMedia("(max-width: 768px)").matches;
-      console.log("Is mobile?", isMobile);
-      return isMobile;
-    }
-  }
+    methods: {
+        sendEmail() {
+            emailjs.sendForm('service_5q6nnax', 'template_zdlzzdy', this.$refs.form, 'GVvrvrd7Qx51HKmmB')
+                .then((result) => {
+                console.log('SUCCESS!', result.text);
+                this.$router.push('/contact/confirmation');
+            }, (error) => {
+                console.log('FAILED...', error.text);
+                this.$router.push('/contact/error');
+            });
+        }
+    },
+    computed: {
+        isMobile() {
+            const isMobile = window.matchMedia("(max-width: 768px)").matches;
+            console.log("Is mobile?", isMobile);
+            return isMobile;
+        }
+    },
+    components: { HeaderComp, FooterComp }
 }
 </script>

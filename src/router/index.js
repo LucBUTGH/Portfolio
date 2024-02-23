@@ -5,6 +5,7 @@ import ProjectView from '@/views/ProjectView.vue';
 import ProjectsView from '@/views/ProjectsView.vue';
 import CheckMessage from '@/views/CheckMessage.vue';
 import ErrorMessage from '@/views/ErrorMessage.vue';
+import PDFViewer from '@/views/PDFViewer.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -39,6 +40,12 @@ const router = createRouter({
       path: "/contact/error",
       name: "error",
       component: ErrorMessage,
+    },
+    {
+      path: '/pdf-viewer', // Define a route for displaying the PDF
+      name: 'PDFViewer',
+      component: PDFViewer,
+      meta: { hideHeaderFooter: true } // Utilisez la propriété meta pour marquer cette route
     },
     {
       path: "/:catchAll(.*)",
