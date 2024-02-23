@@ -5,7 +5,6 @@ import ProjectView from '@/views/ProjectView.vue';
 import ProjectsView from '@/views/ProjectsView.vue';
 import CheckMessage from '@/views/CheckMessage.vue';
 import ErrorMessage from '@/views/ErrorMessage.vue';
-import PDFViewer from '@/views/PDFViewer.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
