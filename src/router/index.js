@@ -42,12 +42,6 @@ const router = createRouter({
       component: ErrorMessage,
     },
     {
-      path: '/pdf-viewer', // Define a route for displaying the PDF
-      name: 'PDFViewer',
-      component: PDFViewer,
-      meta: { hideHeaderFooter: true } // Utilisez la propriété meta pour marquer cette route
-    },
-    {
       path: "/:catchAll(.*)",
       redirect: { name: 'welcome' }
     }

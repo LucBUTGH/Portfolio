@@ -57,7 +57,7 @@ export default {
                         <i class="fa-solid fa-envelope fa-3x" title="Mail"></i>
                     </div>
                 </a>
-                <a href="/pdf-viewer" target="_blank" class="social-link">
+                <a href="/LucLEVEQUE_CV.pdf" target="_blank" class="social-link">
                     <div class="mx-3 md:mx-5">
                         <img src="/cv.svg" alt="cv" title="Ouvrir CV" class="w-12 h-12">
                     </div>
